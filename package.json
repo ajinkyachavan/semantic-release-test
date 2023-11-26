@@ -1,9 +1,12 @@
 {
+  "name": "semantic-version-aj",
+  "version": "1.0.0",
+  "license": "MIT",
   "devDependencies": {
     "semantic-release-github-actions-tags": "^1.0.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "tag": "1.0.0"
+    "tag": "latest"
   }
 }
