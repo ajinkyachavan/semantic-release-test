@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "semantic-release-angular-npm",
+      {
+        "npmPublish": false,
+        "tarballDir": "dist",
+        "ngPackageFilePath": "ng-package.json"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": "dist/*.tgz"
+      }
+    ]
+  ]
+}
