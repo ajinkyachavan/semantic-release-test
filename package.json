@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "semantic-release-angular-npm": "^1.0.0"
+    "semantic-release-github-actions-tags": "^1.0.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
