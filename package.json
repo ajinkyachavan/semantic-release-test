@@ -7,9 +7,10 @@
     "npm": ">=9.0.0 <10.0.0"
   },
   "devDependencies": {
+    "semantic-release-angular-npm": "^1.0.0",
+    "semantic-release-github-actions-tags": "^1.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.4",
-    "semantic-release-angular-npm": "^1.0.0"
+    "@semantic-release/github": "^9.2.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
