@@ -18,7 +18,6 @@
   },
   "scripts": {
     "build": "node app.js",
-    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
   },
   "release": { "branches": [ "master" ] }
 }
