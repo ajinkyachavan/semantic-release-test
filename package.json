@@ -7,6 +7,8 @@
     "npm": ">=9.0.0 <10.0.0"
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.4",
     "semantic-release-angular-npm": "^1.0.0"
   },
   "publishConfig": {
